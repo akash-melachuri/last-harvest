@@ -79,7 +79,6 @@ fn main() {
                         width: SCALED_WIDTH,
                         height: SCALED_HEIGHT,
                         present_mode: PresentMode::AutoVsync,
-                        scale_factor_override: Some(2.),
                         ..default()
                     },
                     ..default()
